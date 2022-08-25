@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Formik, Field, Form } from 'formik';
 import { Button } from '@mui/material';
 
-const SimpleForm = () => (
+const BasicForm = () => (
   <div>
     <h1>Sign Up</h1>
     <Formik
@@ -15,7 +15,7 @@ const SimpleForm = () => (
       onSubmit={(values) => {}}
     >
       <Form>
-        <label htmlFor="todo">Last Name</label>
+        <label htmlFor="todo">Add ToDo </label>
         <Field id="todo" name="Add ToDo" placeholder="TextHere" />
         <button type="submit">Submit</button>
       </Form>
@@ -23,4 +23,4 @@ const SimpleForm = () => (
   </div>
 );
 
-export default SimpleForm
+export default BasicForm
