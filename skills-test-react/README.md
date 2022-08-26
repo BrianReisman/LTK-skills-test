@@ -1,6 +1,6 @@
 # Welcome to Lender Tool Kits basic react skills test
 
-This project is designed to screen candiates react skills as part of the intervie process
+This project is designed to screen candiates react skills as part of the interview process
 
 ## Instructions
 
